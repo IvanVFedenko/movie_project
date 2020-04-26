@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { get_one_movie_thunk } from '../Store/actions';
 import { useHistory } from 'react-router-dom';
 import { TMovie } from '../Types/types';
-import { Typography, Button } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import {
   MovieCardOne,
   StyledCardMediaOne,
